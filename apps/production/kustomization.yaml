@@ -4,9 +4,8 @@ kind: Kustomization
 namespace: test-namespace
 commonLabels:
   app: test-app
-resources:
-#bases:
+# resources:
+bases:
   - ../base
 patchesStrategicMerge:
   - deployment.yaml
-  - ingress.yaml
