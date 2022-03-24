@@ -6,4 +6,4 @@ spec:
   selector:
     matchLabels:
       app: test-app
-  replicas: 2
+  replicas: 3
